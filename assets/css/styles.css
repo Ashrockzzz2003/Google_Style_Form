@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*===== VARIABLES CSS =====*/
 :root{
   /*===== Colores =====*/
@@ -8,9 +8,10 @@
   --border-color: #DADCE0;
 
   /*===== Fuente y tipografia =====*/
-  --body-font: 'Roboto', sans-serif;
+  --body-font: 'Poppins', sans-serif;
   --normal-font-size: 1rem;
   --small-font-size: .75rem;
+  --medium-font-size: 1.2rem;
 }
   
 /*===== BASE =====*/
@@ -54,10 +55,11 @@ h1{
 .form__input{
   position: absolute;
   top: 0;
+  font-family: var(--body-font);
   left: 0;
   width: 100%;
   height: 100%;
-  font-size: var(--normal-font-size);
+  font-size: var(--medium-font-size);
   border: 1px solid var(--border-color);
   border-radius: .5rem;
   outline: none;
